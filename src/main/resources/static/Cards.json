@@ -1,0 +1,50 @@
+[
+    {
+      "name": "John Doe",
+      "description": "A private detective known for his keen observation skills.",
+      "hair_color": "Brown",
+      "eye_color": "Blue",
+      "skin_color": "Fair",
+      "selected": false
+    },
+    {
+      "name": "Jane Smith",
+      "description": "A brilliant scientist with a passion for astrophysics.",
+      "hair_color": "Blonde",
+      "eye_color": "Green",
+      "skin_color": "Light",
+      "selected": false
+    },
+    {
+      "name": "Robert Johnson",
+      "description": "A former soldier turned bodyguard.",
+      "hair_color": "Black",
+      "eye_color": "Brown",
+      "skin_color": "Dark",
+      "selected": false
+    },
+    {
+      "name": "Emily Davis",
+      "description": "A skilled hacker with a mysterious past.",
+      "hair_color": "Red",
+      "eye_color": "Hazel",
+      "skin_color": "Fair",
+      "selected": false
+    },
+    {
+      "name": "Michael Brown",
+      "description": "A charismatic politician with a hidden agenda.",
+      "hair_color": "Grey",
+      "eye_color": "Blue",
+      "skin_color": "Light",
+      "selected": false
+    },
+    {
+      "name": "Linda Williams",
+      "description": "A renowned artist known for her surreal paintings.",
+      "hair_color": "Black",
+      "eye_color": "Brown",
+      "skin_color": "Medium",
+      "selected": true
+    }
+  ]
