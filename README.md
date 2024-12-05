@@ -9,7 +9,17 @@ You can change characters properties. To allow LLM to understand the character c
 ./mvnw spring-boot:run
 ```
 
-# Ask questions with browser
-![](docs/q1.png)
-![](docs/q2.png)
-![](docs/q3.png)
+# Ask questions about the characters to the API
+```
+http ':8080/api/v1/chat?q=Is the eye color Brown?'
+Yes.
+
+$ http ':8080/api/v1/chat?q=Is the hair color Brown?'
+No.
+
+$ http ':8080/api/v1/chat?q=Is the hair color Black?'
+Yes.
+
+$ http ':8080/api/v1/chat?q=Is it Linda?'            
+Yes.
+```
