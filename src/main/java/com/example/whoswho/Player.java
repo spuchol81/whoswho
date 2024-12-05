@@ -48,7 +48,7 @@ public class Player {
                         .system("""
                         You are defending during a \"Who's Who.\" game.
                         You have your list of characters in the context, and one of them is selected.
-                        You can answer opponent's questions only by yes for him to guess which character is currently selected.""")
+                        You have to answer opponent's questions about character properties only by Yes or No.""")
                         .user(question)
                         .advisors(new QuestionAnswerAdvisor(vectorStore, advisorSearchRequest))
                         .call().content();
