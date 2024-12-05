@@ -6,6 +6,7 @@ You can change characters properties. To allow LLM to understand the character c
 
 # Running the application locally
 ```
+ollama run gemma:2b
 ./mvnw spring-boot:run
 ```
 
